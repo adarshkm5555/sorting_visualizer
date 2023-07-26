@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(43, 48, 53);
+}
+
+h1{
+    position: relative;
+    font-size: 40px;
+    color: #252839;
+    text-transform: uppercase;
+}
+
+
+.flex-containers{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.flex-item{
+    background: cyan;
+    border: 1pt solid black;
+    width: 10px;
+    transition: 0.1s all ease;
+}
+
+#input{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#size, #speed{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.srt-heading {
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    /* Align items with space between */
+    align-items: center;
+    /* Vertically center the items */
+}
+
+.navbar li:first-child {
+    margin-right: auto;
+    /* Pushes the first button to the extreme left */
+}
+
+.navbar li {
+    margin-left: 10px;
+    /* Add left margin to create space between buttons */
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #3e5fe4;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #3e5fe4;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.array {
+    color: rgb(62, 203, 93);
+    border: 1px solid rgb(62, 203, 93);
+}
+
+.nav-button:hover {
+    background-color: rgba(17, 117, 199, 0.502);
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+    }
+
+    .navbar li {
+        margin: 5px;
+    }
+}

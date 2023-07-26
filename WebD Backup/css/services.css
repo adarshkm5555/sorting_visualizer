@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mid-sec-list {
+    margin: 0;
+    padding: 0;
+}
+
+.first-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 310px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.sub-heading {
+    display: flex;
+    justify-content: center;
+    padding: 0px 320px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+.mid-sec {
+    padding-top: 50px;
+}
+
+.secItem1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.secItem2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+.Item-mdfx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+
+
+
+.Item-mdfx h1 {
+    text-align: center;
+    margin: 25px;
+    color: #72839f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+
+.Item-mdfx p {
+    color: #04040C;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px
+}
+
+.img-mx img {
+    width: 100%;
+}
+
+
+.abt-fitN {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+
+}
+
+.sec-end {
+    background-color: black;
+    height: 50vh
+}
+
+.sec-head {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.abt-site h3:hover{
+    color: #a52a2a;
+    cursor: pointer;
+}
+
+.sec-head h1 {
+    padding: 80px 0;
+    cursor: pointer;
+}
+
+.location h3:hover{
+    color: #a52a2a;
+    cursor: pointer;
+}
+
+.sec-head h1 i{
+    color: #a52a2a;
+}
+
+.sec-head h1 i:hover{
+    color: #3d3d3d;
+}
+
+.social {
+    margin: 40px 40px;
+}
+
+.social i {
+    color: #a52a2a;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.social i:hover {
+    color: #3d3d3d;
+}

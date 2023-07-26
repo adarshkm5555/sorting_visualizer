@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="sorting.css">
+</head>
+
+<body>
+
+    <h1 class="srt-heading" data-text="Sorting Visualizer">Sorting Visualizer</h1>
+
+    <nav class="navbar">
+
+        <div class="row">
+            <div class="col gap-2 d-sm-flex" id="newArray">
+                <button class="nav-button newArray">New array</button>
+                <br>
+                <br>
+                <button onclick="redirectToPage()" class="nav-button">Back</button>
+            </div>
+
+        <div class="col" id="input">
+            <span id="size">Size
+                <input id="arr_sz" type="range" min="5" max="100" step=1 value=60>
+            </span>
+            <span id="speed">Speed
+                <input id="speed_input" type="range" min="20" max="300" stepDown=10 value=60>
+            </span>
+        </div>
+    
+        
+        <ul>
+            <li><button class="nav-button bubble">Bubble Sort</button></li>
+            <li><button class="nav-button selection">Selection Sort</button></li>
+            <li><button class="nav-button insertion">Insertion Sort</button></li>
+            <li><button class="nav-button quick">Quick Sort</button></li>
+            <li><button class="nav-button merge">Merge Sort</button></li>
+        </ul>
+
+        </div>
+    </nav>
+
+
+    <div id="bars" class="flex-containers">
+
+    </div>
+
+    <script>
+        function redirectToPage(){
+            window.location.href = "../index.html";
+        }
+    </script>
+
+
+
+
+<script src="./js_files/sorting.js"></script>
+<script src="./js_files/bubble.js"></script>
+<script src="./js_files/insertion.js"></script>
+<script src="./js_files/merge.js"></script>
+<script src="./js_files/quick.js"></script>
+<script src="./js_files/selection.js"></script>
+
+</body>
+
+</html>

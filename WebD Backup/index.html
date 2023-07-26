@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+      </style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SortViz</title>
+</head>
+<body>
+
+    <nav class="navbar h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="img/sort-logo.jpg" alt="logo"></div>
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#contact">Contact</a> </li>
+            <li> <a href="services.html">Sorting Algorithms</a> </li>
+        </ul>
+
+        <div class="rightNav v-class-resp">
+
+            <button class="nav-button" id="LoginBtn" onclick="gotoPage()">Login</button>
+            <button class="nav-button" id="SignupBtn">Sign Up</button>
+
+        </div>
+
+    </nav>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+            <p class="text-big">Welcome to Sorting Visualizer</p>
+            <p class="text-small">A sorting visualizer is a tool or program that allows users to visually observe and understand how different sorting algorithms work. </p>
+            <div class="buttons">
+                <button class="btn" id="redirectButton">Try it for free</button>
+            </div>
+        </div>
+
+        <div class="circular-container">
+            <div class="secondHalf">
+            </div>
+        </div>
+
+            
+        </div>
+    </section>
+
+
+    <section class="downSection">
+
+        <div class="tagText">
+        <p class="sectionTag">Sorting Visualizer</p>
+        <p class="sectionSubTag">A sorting visualizer typically provides a graphical representation of the sorting process, allowing users to see how the elements are manipulated and rearranged step by step. It often includes animations or visual cues to demonstrate the comparisons and swaps made by the sorting algorithm.</p>
+
+        
+
+
+    </div>
+        
+   
+        <div class="thumbnail">
+            <img src="https://img.freepik.com/free-vector/binary-code-concept-illustration_114360-6578.jpg?size=626&ext=jpg&ga=GA1.2.1615453755.1684150652&semt=sph" alt="GymImage" class="GymImage">
+        </div>
+
+    </section>
+
+
+
+
+    <section class="contactUs" id="contact">
+
+        <h2>Contact Us</h2>
+        <form class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+            <input class="form-input" type="number" name="phone" id="phone" placeholder="Enter your phone number">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter your email">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate Your Concerns"></textarea>
+            <button class="btn-dark">Submit</button>
+
+        </form>
+
+    </section>
+
+
+    <footer class="background">
+        <p class="text-footer">
+        Made with ❤️ <br>
+        Copyright &copy; 2023 - All Right Reserved
+        </p>
+    </footer>
+
+
+    <script>
+
+        function gotoPage(){
+            window.location.href = "Login Signup Form/login_signup.html";
+        }
+
+
+    document.getElementById("redirectButton").addEventListener("click", function() {
+  window.location.href = "Sorting Visualizer Project/index.html"; 
+});
+
+    </script>
+
+
+    
+</body>
+</html>  
